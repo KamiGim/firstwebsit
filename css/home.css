@@ -1,0 +1,127 @@
+<style>
+html, body,header,div { 
+	height:100%; 
+	height:100%; 
+	margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+body {
+    background-color: lightgrey;
+}
+
+
+#bodyinside {
+	width: 1000px;
+	align: center;
+	position: absolute;
+    left: 150px;
+    background-color: lightblue;
+}
+header{
+	background-color: #2785E6;
+	color: #837C7F;
+	padding: 15px;
+	height: 100px;
+	margin: 0px;
+}
+#logo img{
+	float: right;
+	width: 70px;
+	height: 70px;
+}
+.menu-navigator ul{
+
+}
+nav{
+	background-color: #FF355B;
+	height: 50px;
+	margin: 0px;
+	padding: 0px;
+}
+nav ul{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+nav li{
+	float: right;
+	border-left: 1px #FFFFFF;
+}
+nav li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+}
+nav li a:hover{
+	background-color: #FF0000;
+}
+aside{
+	background-color: #47FF61;
+	width: 200px;
+	height: 1200px;
+	float: left;
+}
+aside ul{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+aside li{
+	float: center;
+}
+aside li a{
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 5px;
+}
+aside li a:hover{
+	background-color: #006F00;
+}
+#menu div{
+
+}
+section{
+	height: 400px;
+	margin: 0px;
+	padding-left: 210px;
+}
+#banner img{
+	width: 700px;
+	height: 200px;
+	padding: 50px;
+}
+
+article{
+	padding-left: 210px;
+
+}
+
+footer{
+	background-color: black;
+	color: white;
+	text-align: center;
+	clear:both;
+	height: 30px;
+	padding: 10px;
+}
+#map {
+        width: 500px;
+        height: 400px;
+        padding-left: 50px;
+      }
+
+#input{
+	background-color: white
+}
+
+.error{
+	color: red;
+}
+</style>

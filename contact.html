@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>contact</title>
+	<link rel="stylesheet" href="css/home.css">
+</head>
+<body>
+	<div id="bodyinside">
+	<header>
+		<div id="logo"><a href="#home"><img src="img/logo.png" alt="My logo"></a></div>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="home.html">home</a></li>
+			<li><a href="about.html">about us</a></li>
+			<li><a href="contact.html">contact</a></li>
+		</ul>
+	</nav>
+	<aside>
+		<ul>
+			<li>Menu</li>
+			<li><a href="#home">home</a></li>
+			<li><a href="#about us">about us</a></li>
+			<li><a href="#contact">contact</a></li>
+		</ul>
+	</aside>
+	<div id="banner"><a href="#test"><img src="img/banner.png" alt="banner"></a></div>
+	<section>
+		<div id="map"></div>
+		<script>
+	      function initMap() {
+	        var mapDiv = document.getElementById('map');
+	        var map = new google.maps.Map(mapDiv, {
+	          center: {lat: 44.540, lng: -78.546},
+	          zoom: 8
+	        });
+	      }
+	    </script>
+	    <script src="https://maps.googleapis.com/maps/api/js?callback=initMap"
+	        async defer></script>
+	</section>
+	<article>
+		<form action="xx.php" method="post">
+			<p>Your Name(require)<br><span id="input"><input type="text" name="fname"></span></p>
+			<p>Your Email (required)<br><span id="input"><input type="text" name = "email"></span></p>
+			<p>Subject<br><span id="input"><input type="text" name = "subject"></span></p>
+			<p>Your message<br><span id="input"><textarea name="message" id="message" cols="30" rows="10"></textarea></span></p>
+			<input type="submit" value="submit" style="color:white;background-color:black">
+		</form>
+	</article>
+	<footer>
+		Copyright © my first website
+	</footer>	
+	</div>
+</body>
+</html>
