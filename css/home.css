@@ -29,7 +29,7 @@ header{
 	height: 100px;
 	margin: 0px;
 }
-#logo img{
+div#logo img{
 	float: right;
 	width: 70px;
 	height: 70px;
@@ -53,6 +53,7 @@ nav li{
 	border-left: 1px #FFFFFF;
 }
 nav li a{
+	font-family: verdana;
 	display: block;
 	color: white;
 	text-align: center;
@@ -73,12 +74,16 @@ aside ul{
 	padding: 0px;
 }
 aside li{
-	float: center;
+	text-align: center;
+}
+aside li:first-child{
+	background-color: #FF9B9B;
+	font-size: 250%;
 }
 aside li a{
+	font-family:verdana;
 	display: block;
 	color: black;
-	text-align: center;
 	padding: 5px;
 }
 aside li a:hover{
@@ -93,6 +98,7 @@ section{
 	padding-left: 210px;
 }
 #banner img{
+	/*margin: 0 auto;*/ 
 	width: 700px;
 	height: 200px;
 	padding: 50px;
